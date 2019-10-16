@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!--Quando queremos fazer alguma programação com o objeto ou quando usasmos posicionamento em relação a layouts-->
+    <LinearLayout
+        android:id="@+id/idLlButtonsContainer"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/idBtnNegativeMsgs"
+            android:text="@string/strBtnNegativeMsgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/idBtnPositiveMsgs"
+            android:text="@string/strBtnPositiveMsgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <!-- Relative layout give us a set of android atributes to set the objects relative to other objets or layouts-->
+    <!-- In relative layouts AVOID circular references
+    i.e saying that A is "ABOVE" B
+    and simultaneously saying that B is "BELLOW" A
+    jus say either "ABOVE" or "BELLOW"
+    not both
+    -->
+    <TextView
+        android:layout_below="@id/idLlButtonsContainer"
+        android:id="@+id/idTvMsgs"
+        android:text="@string/strTvMsgs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

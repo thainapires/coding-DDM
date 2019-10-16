@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Simplest App TIATTRTCIB</string>
+    <string name="strBtnExample">Example Button</string>
+    <string name="strHello">Hello!</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Four Corners</string>
+    <string name="strBottomRightCorner">Bottom Right Corner</string>
+    <string name="strBottomLeftCorner">Bottom Left Corner</string>
+    <string name="strTopLeftCorner">Top Left Corner</string>
+    <string name="strTopRightCorner">Top Right Corner</string>
+</resources>

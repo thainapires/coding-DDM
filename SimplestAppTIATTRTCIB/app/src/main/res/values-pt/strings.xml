@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App mais simples para técnicas de click</string>
+    <string name="strBtnExample">Botão exemplo</string>
+    <string name="strHello">Olá!</string>
+</resources>

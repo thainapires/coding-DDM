@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    What is a Linear Layout?
+    It is a container for any type of elemnt that either arranges its content in
+    a horizontal fashion (the default) or it arranges its content in a vertical
+    fashion (as a stack, a pile of objects)
+
+    More observations:
+    -->
+
+    <!-- the top container, for the "top" buttons-->
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- It's a bad idea to state the text as literal strings as it is being done
+        right now
+
+        it's a better approach to create "string resources, because that will
+        enable internationalization via multiple XML files, later on
+        -->
+
+    <Button
+        android:id="@+id/idButtonTopLeftCorner"
+        android:text="@string/strTopLeftCorner"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/idButtonTopRightCorner"
+        android:text="@string/strTopRightCorner"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <!-- the bottom container, for the "bottom" buttons-->
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/idButtonBottomLeftCorner"
+        android:text="@string/strBottomLeftCorner"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/idButtonBottomRightCorner"
+        android:text="@string/strBottomRightCorner"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Motivate me (not)</string>
+    <string name="strP1">You can do it!</string>
+    <string name="strN1">You should have prepared better</string>
+    <string name="strP2">You can and you will!</string>
+    <string name="strN2">I told you so!</string>
+    <string name="strBtnNegativeMsgs">Negative Message</string>
+    <string name="strBtnPositiveMsgs">Positive Message</string>
+    <string name="strTvMsgs">Messages will appear here</string>
+    <string name="strTvAboutSb">Slide right for positive messages!!</string>
+    <string name="strBtnGetMsg">Get message!</string>
+</resources>

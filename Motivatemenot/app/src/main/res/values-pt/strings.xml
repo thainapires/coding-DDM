@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Me motive (ou não)</string>
+    <string name="strP1">Você consegue!</string>
+    <string name="strN1">Você deveria ter se preparado melhor!</string>
+    <string name="strP2">Você pode e você vai conseguir!</string>
+    <string name="strN2">Eu te avisei!</string>
+    <string name="strBtnNegativeMsgs">Mensagem negativa</string>
+    <string name="strBtnPositiveMsgs">Mensagem positiva</string>
+    <string name="strTvMsgs">Mensagens vão aparecer aqui</string>
+    <string name="strTvAboutSb">Para a direita, para mensagens positivas!!</string>
+    <string name="strBtnGetMsg">Obtenha a mensagem!</string>
+</resources>
